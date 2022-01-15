@@ -34,6 +34,7 @@ nav a {
   padding: 30px;
   border-radius: 5px;
   margin-top: 21px;
+  
 }
 .preebook1 {
   text-decoration: none;
@@ -57,14 +58,30 @@ hr {
   margin-bottom: 27px;
 }
 /* ---- populer collection --  */
+.section-title{
+  display: flex;
+  justify-content: center;
+}
+.populer-section{
+  display: flex;
+  justify-content: center;
+}
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 24px;
+  
+}
+.course{
+  border: 2px solid wheat;
+  border-radius: 4px;
+  
 }
 .course .course-banner img {
   width: 224px;
   height: 104px;
+  
+  border-radius: 4px;
 }
 .course-info {
   display: flex;
