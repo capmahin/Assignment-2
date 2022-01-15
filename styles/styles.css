@@ -1,0 +1,70 @@
+/* ----- in nav ----  */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Poppins:ital,wght@0,500;1,500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 2px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 6%;
+}
+.container {
+  background-color: white;
+  width: 870px;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 21px;
+}
+.preebook1 {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(black, red);
+  color: chartreuse;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.logos-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.logos img {
+  padding: 6px;
+}
+hr {
+  border: 1px solid gray;
+  margin-bottom: 27px;
+}
+/* ---- populer collection --  */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: brown;
+}
+.fa-star.empty {
+  color: black;
+}
